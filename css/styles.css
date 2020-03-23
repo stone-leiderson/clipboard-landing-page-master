@@ -1,0 +1,65 @@
+/* ---------------------------------- */
+/*            BASIC STYLES            */
+/* ---------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  color: hsl(210, 10%, 33%);
+  font-size: 3rem;
+}
+
+/* ---------------------------------- */
+/*               HEADER               */
+/* ---------------------------------- */
+
+.header-section {
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.85) 100%),url("../images/bg-header-desktop.png");
+  height: 300px;
+}
+
+.header-logo img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+/* ---------------------------------- */
+/*             HERO DOWNLOAD          */
+/* ---------------------------------- */
+
+.hero-download {
+  text-align: center;
+}
+
+.header-title {
+  margin-bottom: 25px;
+}
+
+
+
+
+
+/* ---------------------------------- */
+/*             ATTRIBUTION            */
+/* ---------------------------------- */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
