@@ -304,6 +304,10 @@ a {
   color: hsl(217, 0%, 34%);
 }
 
+.footer-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
 .links-1, .links-2, .links-3 {
   display: flex;
   flex-direction: column;
